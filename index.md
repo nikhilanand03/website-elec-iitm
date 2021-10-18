@@ -1,11 +1,7 @@
 ---
-layout: archive
+layout: home
 permalink: /
-title: "Latest Posts"
+title: "Electronics Club, IIT Madras"
+subtitle: "The electronics enthusiasts of IIT Madras"
+imageurl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b2434d52-5bf9-43b4-b9aa-cc5a28c70ab6/dcymzfh-04a8ce14-8125-47c6-8c2b-18dddb636faa.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IyNDM0ZDUyLTViZjktNDNiNC1iOWFhLWNjNWEyOGM3MGFiNlwvZGN5bXpmaC0wNGE4Y2UxNC04MTI1LTQ3YzYtOGMyYi0xOGRkZGI2MzZmYWEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5HabwlWf1iyjegjFIjlwSnvKh6D0zLAT4X5g3R_eRnk"
 ---
-
-<div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
