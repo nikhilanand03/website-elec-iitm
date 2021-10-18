@@ -40,6 +40,21 @@
       </div><!-- /.page-lead-content -->
     </div>
 
+    {% include pic-slider.html %}
+
+    <div style="display:flex; flex-direction: row; width:100%">
+      <div style="width:70%; float:left; padding-left: 2em; padding-right: 2em; ">
+        {% include about-us.html %}
+      </div>
+      <div style="width:30%; float:right; padding-left: 2em; padding-right: 2em">
+        {% include latest-posts-list.html %}
+      </div>
+    </div>
+
+    <div style="width:70%; float:left; padding-left: 2em; padding-right: 2em; ">
+      {% include contact-us.html %}
+    </div>
+
     <div id="page-wrapper">
       {{ content }}
       {% include footer.html %}

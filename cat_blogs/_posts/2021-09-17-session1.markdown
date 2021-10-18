@@ -1,0 +1,16 @@
+---
+layout: article
+title: Flutter Tutorial
+modified:
+category: blogs
+year: "2020-21"
+excerpt: "“It takes you through your first fully-featured Flutter app, including designing a complex UI, as well as more advanced concepts such as persistence, state management, and cloud storage with Firebase. The book even covers publishing on both iOS and Android platforms.”"
+tags: []
+image:
+  feature: blog1.jpeg
+  teaser: blog1.jpeg
+  thumb:
+---
+
+
+{% include toc.html %}

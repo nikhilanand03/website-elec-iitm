@@ -1,0 +1,9 @@
+<div style="padding:1em">
+    {% for post in site.posts %}
+        {% if post.category == page.category %}
+            {% if post.year == "2019-20" %}
+                {% include post-grid.html %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+  </div>

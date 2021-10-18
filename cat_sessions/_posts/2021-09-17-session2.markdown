@@ -1,0 +1,13 @@
+---
+layout: article
+title: CFI Summer School 2019-20
+modified:
+category: sessions
+year: "2019-20"
+excerpt: "The sessions will be conducted by the club heads and coordinators (who have good knowledge in respective topics). Some clubs have invited industry members, working on the concerned fields as guest speakers for a few sessions, for instance 3DP club and iGEM. The organising team will also suggest suitable material to explore more on the topics."
+tags: []
+image:
+  feature: blog2.jpeg
+  teaser: blog2.jpeg
+  thumb:
+---

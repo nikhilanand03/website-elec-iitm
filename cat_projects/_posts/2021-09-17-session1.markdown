@@ -1,0 +1,16 @@
+---
+layout: article
+title: Smart Spectacles for the Visually Impaired
+modified:
+category: projects
+year: "2020-21"
+excerpt: "Imagine you are an auditorily impaired person with no sense of the sound transpiring around you. One day while walking down the road, a speeding automobile honks you to move away from the road, but you cannot hear the warnings due to your disability."
+tags: []
+image:
+  feature: blog1.jpeg
+  teaser: blog1.jpeg
+  thumb:
+---
+
+
+{% include toc.html %}
