@@ -9,7 +9,7 @@
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
-    
+
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico">
@@ -58,7 +58,7 @@
             <div class="page-content">
               <div class="tiles">
 
-                <div class="tile micro-property" style = "width: 70%; float: left;">
+                <div class="tile" style = "float: left;">
                   <h2 class="post-titles">About us</h2>
                   <p class="post-excerpt">{% include about-us.html %}</p>
                 </div><!-- /.tile -->
