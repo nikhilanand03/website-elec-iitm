@@ -43,7 +43,41 @@
 
     {% include pic-slider.html %}
 
-    <div style="display:flex; flex-direction: row; width:100%">
+    <div id="page-wrapper">
+      <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+      <div id="main" role="main">
+        <div class="wrap">
+          
+          <div class="page-title">
+            <h1></h1>
+          </div>
+
+          <div class="archive-wrap">
+            <div class="page-content">
+              <div class="tiles">
+
+                <div class="tile" style = "width: 70%; float: left;">
+                  <h2 class="post-title">About us</h2>
+                  <p class="post-excerpt">{% include about-us.html %}</p>
+                </div><!-- /.tile -->
+
+                <div class="tile" style = "width: 20%; float:left;">
+                  <h2 class="post-title">Latest posts</h2>
+                  <p class="post-excerpt">{% include latest-posts-list.html %}</p>
+                </div><!-- /.tile -->
+
+              </div>
+              <!-- /.tiles -->
+
+            </div><!-- /.page-content -->
+          </div><!-- /.archive-wrap -->
+        </div><!-- /.wrap -->
+      </div><!-- /#main -->
+
+    </div>
+
+    <!-- <div style="display:flex; flex-direction: row; width:100%">
       <div style="width:70%; float:left; padding-left: 2em; padding-right: 2em; ">
         {% include about-us.html %}
       </div>
@@ -54,7 +88,8 @@
 
     <div style="width:70%; float:left; padding-left: 2em; padding-right: 2em; ">
       {% include contact-us.html %}
-    </div>
+    </div> -->
+
 
     <div id="page-wrapper">
       {{ content }}

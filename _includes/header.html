@@ -1,12 +1,14 @@
 <header id="masthead">
-  <div class="inner-wrap">
-    <a href="{{ site.url }}/" class="site-title" style="width:fit-content">
-      <img src="{{ site.url }}/images/{{site.logo}}" alt="" style="width: 2em; height: 2em">
-      {{ site.title }}
-    </a>
-    
-    <nav role="navigation" class="menu top-menu">
-        {% include navigation.html %}
-    </nav>
-  </div><!-- /.inner-wrap -->
+    <div class="inner-wrap">
+      
+      <a href="{{ site.url }}/" class="site-title" style="width:fit-content">
+        <img src="{{ site.url }}/images/{{site.logo}}" alt="" style="width:2em;">
+        {{ site.title }}
+      </a>
+      
+      <nav role="navigation" class="menu top-menu">
+          {% include navigation.html %}
+      </nav>
+    </div><!-- /.inner-wrap -->
+  </div>
 </header><!-- /.masthead -->

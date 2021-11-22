@@ -1,8 +1,5 @@
-<div>
-<h3>Latest posts</h3>
 <ul>
 {% for post in site.posts limit:3 %}
   <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
-</div>
