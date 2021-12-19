@@ -8,7 +8,7 @@ excerpt: "A Pen which converts our hand written notes into editable format and s
 tags: []
 image:
   feature: 
-  teaser: 
+  teaser: digitalpen.jpeg
   thumb: 
 imageurl: "https://wallpaperaccess.com/full/5668725.jpg"
 ---
