@@ -70,6 +70,7 @@
 <div class="tab">
     <button class="tablinks" onclick="openYear(event, '2019-20')">2019-20</button>
     <button class="tablinks" onclick="openYear(event, '2020-21')">2020-21</button>
+    <button id="latest" class="tablinks" onclick="openYear(event, '2021-22')">2021-22</button>
   </div>
   
   <!-- Tab content -->
@@ -86,7 +87,24 @@
   </div>
 
 <script>
-function openYear(evt, cityName) {
+
+// hide all tabcontent
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+  tabcontent[i].style.display = "none";
+}
+
+// remove 'active' from tablinks
+tablinks = document.getElementsByClassName("tablinks");
+for (i = 0; i < tablinks.length; i++) {
+  tablinks[i].className = tablinks[i].className.replace(" active", ""); // all active tablinks are of the form 'xxxx active'
+}
+
+// makes the latest one active and shows it
+document.getElementById("2021-22").style.display = "block";
+document.getElementById("latest").className += " active";
+
+function openYear(evt, yearName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
@@ -99,11 +117,11 @@ function openYear(evt, cityName) {
   // Get all elements with class="tablinks" and remove the class "active"
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].className = tablinks[i].className.replace(" active", ""); // all active tablinks are of the form 'xxxx active'
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(yearName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 </script>
