@@ -1,0 +1,44 @@
+---
+layout: article
+title: Mountable Heads-Up Display For Helmets
+modified: 
+category: projects
+year: "2021-22"
+excerpt: "This project aims to design a Heads-Up Display as a navigational aid to the rider. This product can be mounted on a two-wheeler helmet during use and detached anytime.  "
+tags: []
+image:
+  feature: 
+  teaser: hud.jpeg
+  thumb: 
+imageurl: "https://wallpapercave.com/wp/wp1913248.png"
+---
+
+
+# **Problem Statement**
+
+Many people in the delivery services use mobile phones to navigate to the customers. While driving, it is quite dangerous to lose focus on what is happening in the surroundings. Taking eyes off the road for even a single moment could sometimes result in disastrous consequences. 
+
+# **Basic idea**
+
+A Mountable Heads-up Display can be clipped/mounted on your helmet or any suitable mountable surface in the vehicle, and can be detached after use/when not in use. 
+HUD technology can address what matters the most when you are navigating - your focus and concentration on the real world around you. Heads-up display brings the needed information to your line of sight - so that you can keep your eyes on the road and seamlessly navigate.
+
+# **Current progress**
+
+The project approach has been divided into two sub modules:
+1. Navigation and Communication
+2. Hardware and Optics
+
+### **Navigation and Communication**
+
+Here, we retrieve the navigation data to be displayed on the HUD using the **Google Maps API** on a mobile device and perform necessary preprocessing of the data.
+
+The optimal mode of data transmission of the retrieved data to the device will be done using **Bluetooth** mode of communication. 
+
+
+### **Hardware and Optics**
+
+Here, we use an **Arduino** to communicate to our display element, which is a mini OLED screen (0.96'').
+
+The optical system is the most challenging aspect to design and implement. 
+It consists of a relay of lenses whose function is to slightly magnify the image and correct for abberations and distortions. The final image on the line-of-sight of the user is displayed on and optical element called a **Combiner**, whose function is to transmit requisite amount of light from both surfaces.
