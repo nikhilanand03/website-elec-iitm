@@ -1,0 +1,38 @@
+---
+layout: article
+title: Hogwarts Chessboard
+modified: 
+category: projects
+year: "2021-22"
+excerpt: "There's nothing like playing a game of chess on a real board. But, in today's busy post-pandemic world, people stay miles away from each other and even if someone wants to come over to play, it requires a hell lot of a planning. As a result, you give up and end up playing chess online. How boring.
+
+Hence, we plan to overcome this problem by bringing to you, a smart chessboard that enables you to play your favourite game against a fellow chess enthusiast from anywhere in the world. Tise automated board is designed to reflect the move of your opponent with precision. Not just that, you can challenge the artificial intelligence of the board too."
+tags: []
+image:
+  feature: 
+  teaser: hcb.jpeg
+  thumb: 
+imageurl: "https://i.pinimg.com/originals/f0/67/a9/f067a9fc42a802c0ccc0926fe9b69a80.jpg"
+---
+
+# **Problem Statement**
+There's nothing like playing a game of chess on a real board. But, in today's busy post-pandemic world, people stay miles away from each other and even if someone wants to come over to play, it requires a hell lot of a planning. As a result, you give up and end up playing chess online. How boring.
+
+Hence, we plan to overcome this problem by bringing to you a smart chessboard that enables you to play your favourite game against a fellow chess enthusiast from anywhere in the world. Tise automated board is designed to reflect the move of your opponent with precision. Not just that, you can challenge the artificial intelligence of the board too.
+
+To make an automated physical chessboard which allows players to remotely play against each other. Additionally, it should also be able to allow players to test their skills against a computer
+
+# **Basic idea**
+
+The basic idea implemented to achieve the above objective, is to use a two axis plotter along with reed switches to detect chess pieces and to move them corresponding to the move made by an opponent. Once a player makes a move, their move is communicated via bluetooth to their opponent and so forth the play continues.
+
+# **Current progress**
+
+Currently, we are building a smaller 8 by 8 version of the chessboard as a proof of concept.
+
+* All rights reserved to Electronics Club, CFI, IITM.
+
+# **Resources**
+This project has been inspired by the following Kickstarter projects:
+* Phantom
+* <a href="https://www.chess.com/blog/erik/playing-on-the-automated-chessboard-squareoff" style = "color: white">Square Off</a>
