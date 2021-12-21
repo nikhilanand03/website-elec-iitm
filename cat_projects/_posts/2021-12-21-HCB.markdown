@@ -15,10 +15,11 @@ image:
 imageurl: "https://i.pinimg.com/originals/f0/67/a9/f067a9fc42a802c0ccc0926fe9b69a80.jpg"
 ---
 
-# **Problem Statement**
 There's nothing like playing a game of chess on a real board. But, in today's busy post-pandemic world, people stay miles away from each other and even if someone wants to come over to play, it requires a hell lot of a planning. As a result, you give up and end up playing chess online. How boring.
 
 Hence, we plan to overcome this problem by bringing to you a smart chessboard that enables you to play your favourite game against a fellow chess enthusiast from anywhere in the world. Tise automated board is designed to reflect the move of your opponent with precision. Not just that, you can challenge the artificial intelligence of the board too.
+
+# **Problem Statement**
 
 To make an automated physical chessboard which allows players to remotely play against each other. Additionally, it should also be able to allow players to test their skills against a computer
 
